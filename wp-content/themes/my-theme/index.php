@@ -30,6 +30,7 @@ if ( have_posts() ) {
     $section5_background_img4 = get_field ('section5_background_img4');
     $section5_background_img5 = get_field ('section5_background_img5');
     $section5_background_img6 = get_field ('section5_background_img6');
+    $section6_background_img = get_field ('section6_background_img');
     $section7_video = get_field('section7_video');
   }
 }
@@ -139,6 +140,20 @@ if ( have_posts() ) {
         </section>
       </div> 
     </section>
-
+</section>
+          
+<!-- 6ème PARTIE -->
+          
+    <div class="section6-content">
+      <p class="section6-titre"><?php the_field("section6_titre") ?></p>
+      <p class="section6-barre"><?php the_field("barre") ?></p>
+      <p class="section6-text1"><?php the_field('section6_text1') ?> </p>
+      <p class="section6-text2"><?php the_field('section6_text2') ?> </p>
+      <p class="section6-text3"><?php the_field('section6_text3') ?> </p>
+     <section class="section6-img" style="background-image: url(<?php echo $section6_background_img['url']; ?>)">
+</section>
+      <p class="section-banner-link"><?php echo $banner_link['title']; ?> </p>
+        </div>
+          
 
 <?php get_footer(); ?>
