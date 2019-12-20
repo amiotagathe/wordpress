@@ -88,7 +88,7 @@ if ( have_posts() ) {
         <p class="section5-titre"><?php the_field("section5_titre") ?></p>
         <p class="section5-barre"><?php the_field("barre") ?></p>
         <p class="section5-descriptif"><?php the_field("section5_descriptif") ?></p>
-        
+
          <section class="section5-content1">
             <section class="section5-img1" style="background-image: url(<?php echo $section5_background_img1['url']; ?>)">
          <p class="section5-bla1-bla1"><?php the_field("section5_bla1_bla1") ?></p>
@@ -96,34 +96,41 @@ if ( have_posts() ) {
          <p class="section5-banner-write-link1"><?php the_field('banner_write_link1') ?> </p
              </section>
         </section>
-             
-        <section class="section5-img2" style="background-image: url(<?php echo $section5_background_img2['url']; ?>)">
+        
+        <section class="section5-content2">
+            <section class="section5-img2" style="background-image: url(<?php echo $section5_background_img2['url']; ?>)">
          <p class="section5-bla2-bla1"><?php the_field("section5_bla1_bla1") ?></p>
          <p class="section5-bla2-bla2"><?php the_field("section5_bla1_bla2") ?></p>
          <p class="section5-banner-write-link2"><?php the_field('banner_write_link2') ?> </p
+            </section>
         </section>
-             
-        </section>
-        <section class="section5-img3" style="background-image: url(<?php echo $section5_background_img3['url']; ?>)">
+            
+          <section class="section5-content3">
+            <section class="section5-img3" style="background-image: url(<?php echo $section5_background_img3['url']; ?>)">
          <p class="section5-bla3-bla1"><?php the_field("section5_bla3_bla1") ?></p>
          <p class="section5-bla3-bla2"><?php the_field("section5_bla3_bla2") ?></p>
          <p class="section5-banner-write-link3"><?php the_field('banner_write_link3') ?> </p
+            </section> 
         </section>
-             
-        </section>
+              
+                      
+      <section class="section5-content4">
         <section class="section5-img4" style="background-image: url(<?php echo $section5_background_img4['url']; ?>)">
         <p class="section5-bla4-bla1"><?php the_field("section5_bla4_bla1") ?></p>
          <p class="section5-bla4-bla2"><?php the_field("section5_bla4_bla2") ?></p>
          <p class="section5-banner-write-link4"><?php the_field('banner_write_link4') ?> </p
+            </section> 
         </section>
-             
-        </section>
+          
+     <section class="section5-content5">
         <section class="section5-img5" style="background-image: url(<?php echo $section5_background_img5['url']; ?>)">
          <p class="section5-bla5-bla1"><?php the_field("section5_bla5_bla1") ?></p>
          <p class="section5-bla5-bla2"><?php the_field("section5_bla5_bla2") ?></p>
          <p class="section5-banner-write-link5"><?php the_field('banner_write_link5') ?> </p
+            </section>
         </section>
              
+    <section class="section5-content6">
         <section class="section5-img6" style="background-image: url(<?php echo $section5_background_img6['url']; ?>)">
          <p class="section5-bla6-bla1"><?php the_field("section5_bla6_bla1") ?></p>
          <p class="section5-bla6-bla2"><?php the_field("section5_bla6_bla2") ?></p>
